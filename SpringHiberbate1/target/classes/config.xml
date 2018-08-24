@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
+
+    <context:property-placeholder location="classpath:sport.properties"></context:property-placeholder>
+
+    <bean id="coach" class="com.sanilk.main.TrackCoach ">
+        <constructor-arg ref="fortune"></constructor-arg>
+    </bean>
+
+    <bean id="cricket" class="com.sanilk.main.CricketCoach">
+        <property name="fortuneService" ref="fortune"></property>
+    </bean>
+
+    <bean id="fortune" class="com.sanilk.main.HappyFortuneService"></bean>
+
+    <bean id="advice" class="com.sanilk.main.FootballCoachAdvice"></bean>
+
+    <bean id = "football" class="com.sanilk.main.FootballCoach" scope="prototype">
+        <constructor-arg ref="fortune"></constructor-arg>
+
+        <property name="footballCoachAdvice" ref="advice"></property>
+    </bean>
+
+    <bean id="cricket2" class="com.sanilk.main.CricketCoach2">
+        <property name="fortuneService" ref="fortune"></property>
+        <property name="email" value="${player.email}"></property>
+        <property name="team" value="${player.team}"></property>
+    </bean>
+
+</beans>
