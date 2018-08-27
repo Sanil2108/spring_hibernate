@@ -15,6 +15,10 @@ public class TrackCoach implements Coach {
         return "Run or something like that";
     }
 
+    public void destroy(){
+        System.out.println("Destroying");
+    }
+
     @Override
     public String getFortune() {
         return fortuneService.getFortune();

@@ -7,7 +7,10 @@
 
     <bean id="fortune" class="com.sanilk.main.HappyFortuneService"></bean>
 
-    <bean id="myCoach" class="com.sanilk.main.TrackCoach" scope="prototype" init-method="init">
+    <bean id="myCoach" class="com.sanilk.main.TrackCoach"
+          scope="prototype"
+          init-method="init"
+          destroy-method="destroy">
         <constructor-arg ref="fortune"></constructor-arg>
     </bean>
 

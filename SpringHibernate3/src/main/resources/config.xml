@@ -5,13 +5,8 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-3.0.xsd" >
 
-    <bean id="fortune" class="com.sanilk.main.HappyFortuneService"></bean>
+    <context:component-scan base-package="com.sanilk.main"></context:component-scan>
 
-    <bean id="myCoach" class="com.sanilk.main.TrackCoach"
-          scope="prototype"
-          init-method="init"
-          destroy-method="destroy">
-        <constructor-arg ref="fortune"></constructor-arg>
-    </bean>
+    <context:property-placeholder location="coach.properties"></context:property-placeholder>
 
 </beans>
