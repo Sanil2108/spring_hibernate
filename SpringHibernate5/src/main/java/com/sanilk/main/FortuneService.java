@@ -1,6 +1,5 @@
 package com.sanilk.main;
 
-public interface Coach {
-    String getDailyWorkout();
+public interface FortuneService {
     String getDailyFortune();
 }

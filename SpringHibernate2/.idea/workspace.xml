@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8971a734-1944-4fee-a194-f8fa46b0dfb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringHibernate3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringHibernate3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringHibernate3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringHibernate3/SpringHibernate3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringHibernate3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanilk/main/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanilk/main/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sanilk/main/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sanilk/main/TrackCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config_scopes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config_scopes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sanilk/main/Coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sanilk/main/Coach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sanilk/main/TrackCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sanilk/main/TrackCoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config_scopes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config_scopes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/MyCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/resources/sport.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/SpringMVC1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/src/main/java/com/sanilk/SpringMVC1/MainServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC1/src/resources/spring_mvc_demo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringHibernate5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringHibernate5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/SportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringHibernate5/src/main/java/com/sanilk/main/SportConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,9 +32,10 @@
     <session id="2126350559">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,12 +65,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-end-line="43" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -96,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config_scopes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -108,12 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sanilk/main/TrackCoach.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="165">
               <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +165,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +209,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,30 +269,24 @@
       <option name="presentableId" value="Default" />
       <updated>1535114607147</updated>
       <workItem from="1535114611061" duration="2220000" />
+      <workItem from="1535563298526" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2220000" />
+    <option name="totallyTimeSpent" value="2694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
@@ -298,15 +294,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +319,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sanilk/main/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sanilk/main/CoachAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -332,33 +349,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sanilk/main/TrackCoach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="165">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sanilk/main/MyApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config_scopes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-end-line="43" selection-end-column="10" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="78" />
         </state>
       </provider>
     </entry>
