@@ -14,7 +14,7 @@
 </head>
 <body>
     <form action="" method="post">
-        <c:<input type="text" name="" id="">>
+        <%--<c:<input type="text" name="" id="">>--%>
     </form>
 </body>
 </html>
