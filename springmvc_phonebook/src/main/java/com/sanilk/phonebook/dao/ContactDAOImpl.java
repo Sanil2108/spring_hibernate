@@ -6,6 +6,8 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactDAOImpl implements ContactDAO {
 
@@ -23,6 +25,13 @@ public class ContactDAOImpl implements ContactDAO {
     @Transactional
     public void storeContact(Contact c) {
         sessionFactory.getCurrentSession().save(c);
+    }
+
+    @Transactional
+    @Override
+    public ArrayList<Contact> getAllContacts() {
+        ArrayList<Contact> contacts = (ArrayList<Contact>) sessionFactory.getCurrentSession().createQuery("from Contact", Contact.class).getResultList();
+        return contacts;
     }
 
     @Override

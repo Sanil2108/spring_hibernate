@@ -6,7 +6,10 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.ArrayList;
 
 @Controller
 @RequestMapping("/phonebook")
@@ -19,7 +22,9 @@ public class MyController {
     SessionFactory sessionFactory;
 
     @RequestMapping("/")
-    public String getHome(){
+    public String getHome(Model contactsModel){
+        ArrayList<Contact> contacts= contactDAO.getAllContacts();
+        contactsModel.addAttribute("contacts", contacts);
         return "home";
     }
 
